@@ -234,6 +234,7 @@ function loadWidget(config) {
 		} else {
 			loadlive2d("live2d", `${apiPath}get/?id=${modelId}-${modelTexturesId}`);
 			console.log(`Live2D 模型 ${modelId}-${modelTexturesId} 加载完成`);
+			console.clear();
 		}
 	}
 
