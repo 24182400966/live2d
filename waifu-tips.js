@@ -282,10 +282,10 @@ function initWidget(config, apiPath = "/") {
 			apiPath
 		};
 	}
-	document.body.insertAdjacentHTML("beforeend", `<div class="live2d-tool hide-live2d no-select" id="show_model"><div class="keys">Hide</div></div>
-		<div class="live2d-tool live2d-pio no-select" id="switch_live2d"><div class="keys">Tia</div></div>
-		<div class="live2d-tool switch-live2d no-select" id="switch_model"><div class="keys">Switch</div></div>
-		<div class="live2d-tool save-live2d no-select" id="save_pic"><div class="keys">Save</div></div>
+	document.body.insertAdjacentHTML("beforeend", `<div class="live2d-tool hide-live2d no-select" id="show_model"><div class="keys">隐藏</div></div>
+		<div class="live2d-tool live2d-pio no-select" id="switch_live2d"><div class="keys">切换</div></div>
+		<div class="live2d-tool switch-live2d no-select" id="switch_model"><div class="keys">换装</div></div>
+		<div class="live2d-tool save-live2d no-select" id="save_pic"><div class="keys">拍照</div></div>
 		`);
 	document.getElementById("switch_model").addEventListener("click", () => {
 		document.querySelector("#waifu-tool .fa-street-view").click();
