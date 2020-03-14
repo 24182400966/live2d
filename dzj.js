@@ -133,7 +133,7 @@ function(a) {
     k = void 0,
     l = document.createElement("span");
     return l.classList.add("ityped-cursor"),
-    l.textContent = "",
+    l.textContent = " ",
     {
         init: c
     }
